@@ -1,1 +1,1 @@
-#JavaScript Top 10 Rules Guide
+# JavaScript Top 10 Rules Guide
