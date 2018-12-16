@@ -23,3 +23,41 @@ pcReader              // Lots of things can be abbreviated "pc".
 cstmrId               // Deletes internal letters.
 kSecondsPerDay        // Do not use Hungarian notation.
 	```
+
+## 2. No more than one space is used for indents of keywords, operators, etc.
+
+Illegal:
+```js 
+var name       = "andrei";
+var sureName = "corcinschi";
+```
+
+Good way:
+
+```js
+var name = "andrei";
+var sureName = "corcinschi";
+```
+
+## 3. Use abbreviated object properties.
+
+Illegal:
+
+```js
+const johnSmith = 'John Smith';
+const obj = {
+  johnSmith: johnSmith,
+};
+```
+
+Good way:
+
+```js
+const johnSmith = 'John Smith';
+const obj = {
+  johnSmith,
+};
+```
+
+### 3. To add any element to an array, use Array push instead of direct assignment.
+
