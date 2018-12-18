@@ -130,8 +130,12 @@ const items = [];
 
 ### 7. Use literal notation to create an object.
 
+Illegal:
+
+```js
 const items = new Object();
 ```
+
 
 Good way:
 
